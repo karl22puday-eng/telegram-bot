@@ -1,7 +1,7 @@
 import os
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
 
-TOKEN = ""
+
 PASSWORD = "Caviar$"  # <-- Change this to your password
 ALLOWED_USERS_FILE = "allowed_users.txt"
 
@@ -60,3 +60,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
